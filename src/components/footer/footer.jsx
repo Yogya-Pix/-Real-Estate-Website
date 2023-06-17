@@ -20,9 +20,11 @@ function Footer() {
                     <div className='sb__footer-links'>
                         <div className='sb__footer-links-left-div'>
                             <h4>Thank You for Visiting Our Site</h4>
-                            <div className='sb__footer-link-left-div-para'>
-                                <img src="star" alt="" />
-                                <img src="star" alt="" />
+                            <div className='sb__footer-link-left-div-flex-para'>
+                                <div className='sb__footer-link-left-div-para'>
+                                    <img src={star} alt="" />
+                                    <img src={star} alt="" />
+                                </div>
                                 <p>We care about our customers
                                     for more support contact us ...</p>
                             </div>

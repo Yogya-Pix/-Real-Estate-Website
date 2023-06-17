@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-left: 2rem;
+    margin-left: 24PX;
     height: 100%;
     transition: scale(0.66);
     transition: all var(--animation-time) linear;
@@ -66,20 +66,31 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 70rem;
+    width: 4rem;
+    margin-top: 4rem;
+
+}
+
+.data h4 {
+    font-size: 12px;
+}
+
+
+.card.active .data h4 {
+    font-size: 18px;
+    width: 500px;
+    margin-bottom: -15px;
+    text-align: left;
 }
 
 .content h4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
-    align-items: left;
-    font-size: 12px;
+    text-align: center;
     font-weight: 300;
-    margin-bottom: -10px;
-
+    margin-bottom: -70px;
 }
 
 
@@ -98,7 +109,7 @@
 
 
 .detail h4 {
-    padding-bottom: 1rem;
+    padding-bottom: 15px;
 }
 
 .detail p {
@@ -112,13 +123,9 @@
     margin-left: 0;
 }
 
-.card.active .detail h4 {
-    font-size: 20px;
-}
-
 .flexbox_slider-content {
     height: 20rem;
-    width: 6rem;
+    width: 5rem;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
