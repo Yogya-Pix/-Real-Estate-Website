@@ -3,14 +3,19 @@ import './body.css';
 import Footer from '../footer/footer';
 import BottomNav from '../bottom_navbar/bottomNav';
 import FlexboxSlider from '../flexboxSlider/flexboxSlider';
+import FilterSearchBox from '../filterSearchBox/filterSearchBox';
 import mglass1 from '../../assets/mglass1.png'
 import VRbox1 from '../../assets/VRbox1.png'
 import userlike from '../../assets/userlike.png'
+import PropertyBtn from '../propertyTypeButton/PropertyBtn';
 
 function Body() {
     return (
         <>
             <div className='body-div'></div>
+            <PropertyBtn />
+
+            <FilterSearchBox />
             <div className='features_parent-div'>
                 <div className='features-div'>
                     <div className='features-child-div'>

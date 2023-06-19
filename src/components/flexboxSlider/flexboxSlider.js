@@ -53,7 +53,7 @@ function FlexboxSlider() {
               <div className='data'>
                 <h4 className='title jd'>- John Doe.</h4>
                 <div className='detail'>
-                  <p>I would definitely recommend this website for experiencing the property. Purchased my first property throug Tap to home, and I loved it.</p>
+                  <p>I would definitely recommend this websits for experiencing the property. Purchased my first property throug Tap to home, and I loved it.</p>
                 </div>
               </div>
             </div>
