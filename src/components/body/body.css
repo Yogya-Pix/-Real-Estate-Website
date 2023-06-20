@@ -232,7 +232,7 @@
     color: white;
 }
 
-.filter-box-container-parent {
+/* .filter-box-container-parent {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -296,10 +296,11 @@
     margin-top: -35px;
     margin-right: 10px;
     border-radius: 80px;
+    cursor: pointer;
 }
 
 .show-on-map-btn {
     position: relative;
     margin-top: -40px;
     z-index: 100;
-}
+} */

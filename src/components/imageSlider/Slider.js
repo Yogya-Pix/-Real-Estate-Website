@@ -1,9 +1,12 @@
 import React from 'react'
 import './Slider.css'
-import VRimg from '../../assets/VRimg.png'
-import ARimg from '../../assets/ARimg.png'
-import mimg from '../../assets/Mimg.png'
+import dot from '../../assets/dot.png'
 import ImageSlider from './ImageSlider'
+import {ReactComponent as VRimg} from '../../assets/VRimg.svg'
+import {ReactComponent as ARimg} from '../../assets/ARimg.svg'
+import {ReactComponent as Mimg} from '../../assets/Mimg.svg'
+import {ReactComponent as FavIcon} from '../../assets/fav.svg'
+
 
 function Slider() {
 
@@ -24,6 +27,7 @@ function Slider() {
 
   return (
     <>
+    <div className="super-super-parent-slider">
     <div className="super-parent-slider">
       <div className="parent-slider">
         <div className="slider-content">
@@ -34,20 +38,34 @@ function Slider() {
             <div className='slider-image-vrimages'>
                 <div className="vrimages">
                     <h4>VR</h4>
-                    <img src={VRimg} alt="" />
+                    <VRimg/>
                 </div>
                 <div className="vrimages">
                     <h4>AR</h4>
-                    <img src={ARimg} alt="" />
+                    <ARimg/>
                 </div>
                 <div className="vrimages">
                     <h4>M</h4>
-                    <img src={mimg} alt="" />
+                    <Mimg/>
                 </div>
             </div>
         </div>
-        <div className="slider-content-information"><p>information goes here Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis, expedita tempore doloribus asperiores illo minima hic. Veritatis, deleniti? Dolorem delectus et expedita tenetur vel nemo sit quisquam quasi quidem.
-        A cumque quam optio error tempore fugiat pariatur, explicabo itaque incidunt illo ad. Tenetur magnam ipsum exercitationem tempore quo minima illo voluptatum a aspernatur, ut odio officia, minus</p>  </div>
+        <div className="parent-slider-content-information">
+        <div className="slider-content-information">
+          <h4>Edinburgh, United Kingdom</h4>
+          <p id = 'owner-para'>Owner Name . What does owner do as profession</p>
+          <div className="applied-filters">
+          <p>2 BHK</p>
+          <img src={dot} alt="" />
+          <p>Land/Plot</p>
+          <img src={dot} alt="" />
+          <p>2 Floor Apartment</p>
+          </div>
+          <h3>$ 230,000</h3>
+            </div>
+            <FavIcon/>
+        </div>
+        
         </div>
       </div>
       <div className="parent-slider">
@@ -59,20 +77,34 @@ function Slider() {
             <div className='slider-image-vrimages'>
                 <div className="vrimages">
                     <h4>VR</h4>
-                    <img src={VRimg} alt="" />
+                    <VRimg/>
                 </div>
                 <div className="vrimages">
                     <h4>AR</h4>
-                    <img src={ARimg} alt="" />
+                    <ARimg/>
                 </div>
                 <div className="vrimages">
                     <h4>M</h4>
-                    <img src={mimg} alt="" />
+                    <Mimg/>
                 </div>
             </div>
         </div>
-        <div className="slider-content-information"><p>information goes here Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis, expedita tempore doloribus asperiores illo minima hic. Veritatis, deleniti? Dolorem delectus et expedita tenetur vel nemo sit quisquam quasi quidem.
-        A cumque quam optio error tempore fugiat pariatur, explicabo itaque incidunt illo ad. Tenetur magnam ipsum exercitationem tempore quo minima illo voluptatum a aspernatur, ut odio officia, minus</p>  </div>
+        <div className="parent-slider-content-information">
+        <div className="slider-content-information">
+          <h4>Edinburgh, United Kingdom</h4>
+          <p id = 'owner-para'>Owner Name . What does owner do as profession</p>
+          <div className="applied-filters">
+          <p>2 BHK</p>
+          <img src={dot} alt="" />
+          <p>Land/Plot</p>
+          <img src={dot} alt="" />
+          <p>2 Floor Apartment</p>
+          </div>
+          <h3>$ 230,000</h3>
+            </div>
+            <FavIcon/>
+        </div>
+        
         </div>
       </div>
       <div className="parent-slider">
@@ -84,22 +116,38 @@ function Slider() {
             <div className='slider-image-vrimages'>
                 <div className="vrimages">
                     <h4>VR</h4>
-                    <img src={VRimg} alt="" />
+                    <VRimg/>
                 </div>
                 <div className="vrimages">
                     <h4>AR</h4>
-                    <img src={ARimg} alt="" />
+                    <ARimg/>
                 </div>
                 <div className="vrimages">
                     <h4>M</h4>
-                    <img src={mimg} alt="" />
+                    <Mimg/>
                 </div>
             </div>
         </div>
-        <div className="slider-content-information"><p>information goes here Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis, expedita tempore doloribus asperiores illo minima hic. Veritatis, deleniti? Dolorem delectus et expedita tenetur vel nemo sit quisquam quasi quidem.
-        A cumque quam optio error tempore fugiat pariatur, explicabo itaque incidunt illo ad. Tenetur magnam ipsum exercitationem tempore quo minima illo voluptatum a aspernatur, ut odio officia, minus</p>  </div>
+        <div className="parent-slider-content-information">
+        <div className="slider-content-information">
+          <h4>Edinburgh, United Kingdom</h4>
+          <p id = 'owner-para'>Owner Name . What does owner do as profession</p>
+          <div className="applied-filters">
+          <p>2 BHK</p>
+          <img src={dot} alt="" />
+          <p>Land/Plot</p>
+          <img src={dot} alt="" />
+          <p>2 Floor Apartment</p>
+          </div>
+          <h3>$ 230,000</h3>
+            </div>
+            <FavIcon/>
+        </div>
+        
         </div>
       </div>
+      
+     </div>
       </div>
     </>
   )
