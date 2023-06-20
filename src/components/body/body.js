@@ -3,19 +3,43 @@ import './body.css';
 import Footer from '../footer/footer';
 import BottomNav from '../bottom_navbar/bottomNav';
 import FlexboxSlider from '../flexboxSlider/flexboxSlider';
-import FilterSearchBox from '../filterSearchBox/filterSearchBox';
 import mglass1 from '../../assets/mglass1.png'
 import VRbox1 from '../../assets/VRbox1.png'
 import userlike from '../../assets/userlike.png'
 import PropertyBtn from '../propertyTypeButton/PropertyBtn';
+import FilterBox from '../filterBox/FilterBox';
 
 function Body() {
     return (
         <>
-            <div className='body-div'></div>
+        <div className="super-super-parent-filter-box">
+            <div className="filter-box-container-super-parent">
+                <div className="filter-box-container-parent">
+                   <div className='filter-box-container-combined'>
+                      <div className="filter-box-container">
+                            <FilterBox title = 'Select City'/>
+                            <FilterBox title = 'Property Type'/>
+                           <FilterBox title = 'Filters'/>
+                     </div>
+                   <div className="filter-box-container-searchbar">
+                         <input type="text"  placeholder='Search for “Residential House in Nantes, France”'/>
+                     </div>
+                 </div>
+                    <div className='filter-box-search-btn'>
+                     <p>Search</p>
+                    </div>
+                </div>
+      
+        </div>
+        <div className="show-on-map-btn">
+        <div className='btm__nav'>
+            <a href="/properties"><div className='btm__nav-btn'>Show on Map</div></a>
+            </div>
+            </div>
+        </div>
+            
             <PropertyBtn />
 
-            <FilterSearchBox />
             <div className='features_parent-div'>
                 <div className='features-div'>
                     <div className='features-child-div'>
