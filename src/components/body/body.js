@@ -7,12 +7,24 @@ import mglass1 from '../../assets/mglass1.png'
 import VRbox1 from '../../assets/VRbox1.png'
 import userlike from '../../assets/userlike.png'
 import PropertyBtn from '../propertyTypeButton/PropertyBtn';
+import motion1 from '../../assets/Group 51.png'
+import motion2 from '../../assets/Group 52.png'
+import mag_glass from '../../assets/Group 53.png'
+// import likeicon from '../../assets/Group 55.png'
+import usericon from '../../assets/Group 54.png'
+import photos from '../../assets/Group 56.png'
+import { ReactComponent as Likeicon } from '../../assets/Group 55.svg'
+
+
+// import { ReactComponent as Motion1 } from '../../assets/motion_img1.svg'
+// import { ReactComponent as Motion2 } from '../../assets/motion_img2.svg'
+
+
 // import FilterBox from '../filterBox/FilterBox';
 
 function Body() {
     return (
-        <>            
-            <PropertyBtn />
+        <>
 
             <div className='features_parent-div'>
                 <div className='features-div'>
@@ -26,7 +38,10 @@ function Body() {
                             </a>
                         </div>
                         <div className="features-image">
-                            <img src={mglass1} alt="" />
+
+                            <img id='prior2' src={motion2} alt="" />
+                            <img id='prior3' src={motion1} alt="" />
+                            <img id='prior1' src={mag_glass} alt="" />
                         </div>
                     </div>
                 </div>
@@ -61,7 +76,9 @@ function Body() {
 
                         </div>
                         <div className="features-image">
-                            <img src={userlike} alt="" />
+                            <Likeicon />
+                            <img id='p2' src={usericon} alt="" />
+                            <img id='p3' src={photos} alt="" />
                         </div>
                     </div>
                 </div>

@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 275px;
+    width: 440px;
+    height: 250px;
+    margin-left: 1px;
 }
 
 .slide {
